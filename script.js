@@ -1,10 +1,10 @@
+// Evento para revelar a surpresa e as ideias de date
 document.getElementById('revealButton').addEventListener('click', function() {
-    const surprise = document.getElementById('surprise');
-    surprise.classList.toggle('hidden');
-    const dateIdea = document.getElementById('dateIdea');
-    dateIdea.classList.toggle('hidden');
+    document.getElementById('surprise').classList.remove('hidden');
+    document.getElementById('dateIdea').classList.remove('hidden');
 });
 
+// Função para escolher a ideia de date
 function chooseDate(option) {
-    alert(`Ótima escolha! Vamos fazer um ${option}!`);
+    alert(`Você quem sabe, meu amor! Vamos de ${option} então.`);
 }
