@@ -6,5 +6,5 @@ document.getElementById('revealButton').addEventListener('click', function() {
 
 // Função para escolher a ideia de date
 function chooseDate(option) {
-    alert(`Você quem sabe, meu amor! Vamos de ${option} então.`);
+    alert(`Você quem manda gatinha, so falar onde e quando.`);
 }
