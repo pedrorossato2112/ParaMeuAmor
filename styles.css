@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid #ff0000; /* Vermelho */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #222; /* Fundo cinza escuro */
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.5); /* Sombra vermelha */
+}
+
+h1 {
+    color: #ff0000; /* Vermelho */
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #ff0000; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #cc0000; /* Vermelho mais escuro */
+}
+
+.hidden {
+    display: none;
+}
+
+#surprise {
+    margin-top: 20px;
+}
+
+.dateButton {
+    background-color: #ff0000; /* Vermelho */
+    color: white;
+    border: none;
+    padding:
